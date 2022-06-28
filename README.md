@@ -1,3 +1,3 @@
 # simpleWarehouseManagement
 一个基于.Net+SqlServer的简单仓库管理系统，实现了简单粗暴的增删改查功能。
-其中是使用window计算机中的IIS管理器运行该项目
+本作品中是使用window计算机中的IIS管理器运行。
