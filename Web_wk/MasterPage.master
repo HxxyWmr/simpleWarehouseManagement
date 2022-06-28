@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+ <body >
+    <form id="form1" runat="server">
+
+        <div class="logo">
+            <h2>当前为管理员系统</h2>
+            <asp:LinkButton ID="Home" runat="server" PostBackUrl="Home.aspx" CssClass="MasterButton">返回主页界面</asp:LinkButton> 
+        </div>
+
+        <div class="contents">
+                
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ForeColor="White" ShowExpandCollapse="False"></asp:TreeView>
+              <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            
+            <asp:ContentPlaceHolder ID="Contents" runat="server"></asp:ContentPlaceHolder>    
+        </div>
+    <div class="content">
+         
+                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder> 
+
+        <%--中间内容--%>
+    </div>
+    <div id="copyright">
+        190372220王康
+    </div>
+
+    </form>
+</body>
+</html>
+

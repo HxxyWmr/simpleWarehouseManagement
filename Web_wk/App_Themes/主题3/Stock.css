@@ -1,0 +1,21 @@
+﻿.StockButton
+{
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0;
+    width:198px;
+    background-color:#fff;
+    height: 23px;
+    position:absolute;
+    bottom:75px;
+    left:15px;
+
+}
+ .StockGr
+{
+       margin-left:00px;
+       margin-top:100px;
+       line-height:40px;
+       height:500px;   
+       overflow-y:scroll
+}

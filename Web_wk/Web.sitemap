@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="home.aspx" title="仓库管理系统"  description="">
+        <siteMapNode url="~/Adimini/Adimini.aspx" title="管理员"  description="" />
+        <siteMapNode url="~/User/User.aspx" title="用户管理"  description="" />
+        <siteMapNode url="~/Stock/Stock.aspx" title="库存管理"  description="" />
+        <siteMapNode url="~/OutStock/OutStock.aspx" title="出库销售"  description="" />
+    </siteMapNode>
+</siteMap>

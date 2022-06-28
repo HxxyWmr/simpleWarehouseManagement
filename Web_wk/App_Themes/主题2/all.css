@@ -1,0 +1,90 @@
+﻿.MasterButton
+{
+    color: #a0a0a0;
+    font: 28px "heiti sc";
+    font-family: 黑体;
+    font-weight: bold;
+    text-decoration:none;
+    position:absolute;
+    top:20px;
+    right:100px;
+    
+}
+.Head
+{
+    width:100%;
+    height:10%;
+    background-color:white;
+    position:absolute;
+    top:0;
+    left:0;
+}
+    .Head li
+    {
+            float:right;
+            list-style:none;
+            margin:10px;
+            margin-right:45px
+    }
+.LinkButton
+{
+    color: #a0a0a0;
+    font: 28px "heiti sc";
+    font-family: 黑体;
+    font-weight: bold;
+    text-decoration:none;
+    line-height:10%;
+}
+    .LinkButton:hover
+    {
+        color:#373737;
+    }
+.Center
+{
+    width:400px;
+    height:280px;
+    background-color:white;
+    margin:200px auto;
+    border-radius:10px;
+}
+    .Center Button
+    {
+        margin:10px;
+    }
+.Tis
+{
+    font-size:14px;
+    font-family: 黑体;
+    color:red;
+    padding-bottom:0px;
+}
+.LeftContors
+{
+    width:100%;
+    height:400px;
+    margin-top:20px;
+}
+.Zwen
+{
+    position:absolute;
+    font-size:50px;
+    color:white;
+    top:400px;
+    left:400px;
+}
+.Site
+{
+     text-decoration:none
+}
+.Tree
+{
+    margin-bottom:20px;
+}  
+.TextBox
+{
+    background-color:transparent;
+    border:0 solid;
+    border-bottom:1px solid;
+    margin-bottom:10px;
+}
+
